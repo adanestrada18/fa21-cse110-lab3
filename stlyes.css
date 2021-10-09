@@ -1,1 +1,113 @@
+@font-face {
+    font-family: "Akronim";
+    src: url('Akronim/Akronim-regular.woff2') format('woff2'),
+         url('Akronim/Akronim-regular.woff') format('woff');
+  }
 
+h1 {
+    color: rgb(105, 102, 102);
+}
+
+h2 {
+    background-color: black;
+    color: white;
+}
+.wrapper {
+    font-size: 1em;
+    display: block-inline;
+    display: grid;
+
+  }
+  
+  .px {
+    position: absolute;
+    width: 20px;
+    max-width: 40px;
+  }
+  .vw {
+    position: relative;
+    top: 10px; left: 80px;
+    font-size: 80%
+  }
+  
+  .em {
+    text-decoration-color: aqua;
+
+    font-size: 40px;
+  }
+  .box {
+    /*width: 350px;*/
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    border-style: dotted;
+  }
+  .wrapper2 {
+    font-size: 1em;
+    display: inline;
+    display: flex
+  }
+  
+  .px2 {
+    width: 20px;
+  }
+  .vw2 {
+    width: 15px;
+    min-width: none;
+    font-size: 80%;
+  }
+  
+  .em2 {
+    font-size: 10px;
+    
+  }
+  .box2 {
+    /*width: 350px;*/
+    padding-top: 40px;
+    padding-bottom:40px;
+    margin-top: -30px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    
+  }
+  .under {
+      text-decoration: underline red;
+    }
+    a:hover {
+        background-color: gold;
+      }
+      a:active {
+        color: red;
+      }
+      @media (any-hover: hover) {
+        a:hover {
+          background: yellow;
+        }
+      }
+      * {
+        margin: 0;
+    }
+    #LuisRobert {
+        background-color: yellow;
+    }
+    li[class="wrapper2"] {
+        background-color: white;
+    }
+    ul > li {
+        border-top: 5px solid green;
+    }  
+    h1 + p {
+        font-weight: bold;
+        background-color: rgb(153, 22, 22);
+        color: rgb(255, 255, 255);
+        padding: .5em;
+    }   
+    h2 ~ img {
+        background-color: blueviolet;
+    }
+    ul > li[class="under"]  {
+        background-color: red;
+    }
+    
