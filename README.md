@@ -1,1 +1,1 @@
-https://github.com/adanestrada18/fa21-cse110-lab3.git
+https://adanestrada18.github.io/fa21-cse110-lab3/
